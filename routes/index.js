@@ -39,11 +39,4 @@ router.get('/:string', function(req, res, next) {
 
 });
 
-
-router.post('/:string', function(req, res, next) {
-
-  res.json(dateObj(req.params.string));
-
-});
-
 module.exports = router;
